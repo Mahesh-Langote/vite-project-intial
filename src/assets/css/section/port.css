@@ -1,0 +1,122 @@
+#port {
+    width: 100%;
+    overflow: hidden;
+}
+.port__inner {
+    padding: 16px;
+    background-color: var(--mainBg-color);
+}
+.port__title {
+    position: sticky;
+    top: 70px;
+    left: 0;
+    width: 48%;
+    height: 5vw;
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 1.6;
+    text-transform: uppercase;
+    font-family: var(--mainNum--font);
+    border-bottom: 0.4vw solid var(--white500);
+    color: var(--white500);
+    position: sticky;
+    left: 0;
+    margin-bottom: 16px;
+}
+.port__title em {
+    font-size: var(--mainNum--font);
+    font-size: 1.25rem;
+    font-weight: 400;
+    display: inline-block;
+    color: var(--white500);
+}
+.port__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 7000px;
+    position: relative;
+    margin-top: 100px;
+}
+.port__item {
+    width: 500px;
+    height: 70vh;
+    background-color: #ccc;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.port__item .num {
+    margin-left: -383px;
+    font-size: 1.8rem;
+    margin-bottom: -22px;
+    z-index: 1;
+    font-weight: 900;
+    font-family: "GmarketSans";
+}
+.port__item a {
+    background-image: url(../../img/port1.png);
+    /* filter: opacity(0.5); */
+    width: 420px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.port__item a img {
+    width: 350px;
+    height: 200px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.port__item .title {
+    margin-bottom: 5px;
+    font-size: 20px;
+    border-bottom: 2px solid var(--black);
+}
+.port__item .desc {
+    margin: 15px 35px 0px 35px;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+.port__item button {
+    border: 1px solid #000;
+    font-size: 1rem;
+    width: 90%;
+    padding: 10px 30px 10px 30px;
+}
+.port__item.p1 {
+    background-color: #9b9393;
+}
+.port__item.p2 {
+    background-color: #c7c2c2;
+}
+.port__item.p3 {
+    background-color: #9b9393;
+}
+.port__item.p4 {
+    background-color: #c7c2c2;
+}
+.port__item.p5 {
+    background-color: #9b9393;
+}
+.port__item.p6 {
+    background-color: #c7c2c2;
+}
+.port__item.p7 {
+    background-color: #9b9393;
+}
+.port__item.p8 {
+        background-color: #c7c2c2;
+}
+.port__item.p9 {
+        background-color: #9b9393;
+}
+.port__item.p10 {
+        background-color: #c7c2c2;
+}
